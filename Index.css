@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-size: 3.5em;
+}
+h2{
+    font-size: 2.5em;
+}
+h3{
+    font-size: 2em;
+}
+p{
+    font-size: 1.5em;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+button:hover{
+    background-color: rgb(235, 235, 235);
+    color: rgb(35, 149, 153);
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    background-color: rgb(245, 245, 245);
+    color: rgb(42, 42, 204);
+}
+#info{
+    background-color: rgb(245, 245, 245);
+}
+header logo{
+    margin: 0;
+    padding: 20px 60px;
+    color: cornflowerblue;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+header container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .encabezado{
+    width: 50%;
+}
+header .image-container{
+    background-image: url("Images/logo.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100px;
+    width: 270px;
+}
+header nav{
+    display: flex;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(4, 30, 143);
+}
+header a:hover{
+    color: rgb(113, 92, 248);
+}
+
+section.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    height: 75vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Images/Varias2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#lifestyle{
+    flex-direction: row;
+    color: rgb(42, 42, 204);
+}
+#whatshappening{
+    flex-direction: row;
+    color: rgb(42, 42, 204);
+}
+#lifestyle h2{
+    padding: 5px 100px;
+}
+#lifestyle .container{
+    display: flex;
+    padding: 5px 100px;
+}
+#whatshappening h2{
+    padding: 5px 100px;
+}
+#whatshappening .container{
+    display: flex;
+    padding: 5px 100px;
+}
+
+#lifestyle .container .lsEscape{
+    margin: 10px;
+    padding: 180px 5px;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+    height: 50vh;
+    width: 50vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Images/Escape1-d.jpg");  
+    background-repeat: no-repeat;
+    background-size: 35pc;
+    background-position: left center;
+}
+#lifestyle .container .lsEdge{
+    margin: 10px;
+    padding: 180px 5px;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+    height: 50vh;
+    width: 50vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Images/Edge3-d.jpg");  
+    background-repeat: no-repeat;
+    background-size: 35pc;
+    background-position: left center;
+}
+#lifestyle .container .lsExplorer{
+    margin: 10px;
+    padding: 180px 5px;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+    height: 50vh;
+    width: 50vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Images/Explorer-ST1-d.jpg");  
+    background-repeat: no-repeat;
+    background-size: 35pc;
+    background-position: left center;
+}
+#lifestyle .container .lsMustang{
+    margin: 10px;
+    padding: 180px 5px;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+    height: 50vh;
+    width: 50vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Images/Mustang1-d.jpg");  
+    background-repeat: no-repeat;
+    background-size: 35pc;
+    background-position: left center;
+}
+#whatshappening .container .whOfertas{
+    margin: 10px;
+    padding: 180px 5px;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+    height: 50vh;
+    width: 50vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Images/Explorer6-d.jpg");  
+    background-repeat: no-repeat;
+    background-size: 35pc;
+    background-position: left center;
+}
+#whatshappening .container .whRanger{
+    margin: 10px;
+    padding: 180px 5px;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+    height: 50vh;
+    width: 50vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Images/Ranger1-d.jpg");  
+    background-repeat: no-repeat;
+    background-size: 35pc;
+    background-position: left center;
+}
+
+#whatshappening .container .whMustang{
+    margin: 10px;
+    padding: 180px 5px;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+    height: 50vh;
+    width: 50vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Images/Mustang2-d.jpg");  
+    background-repeat: no-repeat;
+    background-size: 35pc;
+    background-position: left center;
+}
+#Explore .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    height: 25vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Images/Mas-d.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+footer{
+    background-color: rgb(230, 230, 230);
+}
+footer p{
+    margin: 0;
+    color: rgb(100, 100, 100);
+    padding: 12px;
+}
+footer .container{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+}
+@media (min-width: 720px){
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
